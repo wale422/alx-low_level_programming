@@ -1,8 +1,8 @@
-#include <stdlib.h>i
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - Entry point
- * Description: A program to print positive,zero,or negative
+ * Description: A program to print positive,zero,or negativie
  * Return:Always 0 (Success)
  */
 int main(void)
