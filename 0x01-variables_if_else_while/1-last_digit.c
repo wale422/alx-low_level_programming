@@ -18,7 +18,7 @@ int main(void)
 	if (last_digit > 5)
 		printf("is greater than 5\n");
 	else if (last_digit < 6 && last_digit != 0)
-		printf("is less than 6 and not zero\n");
+		printf("is less than 6 and not 0\n");
 	else
 		printf("is 0\n");
 	return (0);
