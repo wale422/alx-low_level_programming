@@ -7,7 +7,7 @@
  * Return:Always 0 (Success)
  */
 int main(void)
-{
+i{
 	int i;
 	int j;
 
@@ -20,7 +20,10 @@ int main(void)
 			putchar(' ');
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
-			putchar(',');
+			if ((i / 10) == 9 && (i % 10) == 8 && (j / 10) == 9 && (j % 10) == 9)
+				continue;
+			else
+				putchar(',');
 			putchar(' ');
 		}
 	}
