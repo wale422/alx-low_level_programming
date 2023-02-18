@@ -7,7 +7,7 @@
  * Return:Always 0 (Success)
  */
 int main(void)
-i{
+{
 	int i;
 	int j;
 
