@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0 ; i <= 9; i++)
 	{
-		putchar('0' + i);
 		for (j = i; j < i; j++)
+		putchar('0' + i);
 		putchar('0' + j);
 		if (i == 9 || j == 9)
 			continue;
