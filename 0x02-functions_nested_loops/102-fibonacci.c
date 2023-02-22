@@ -6,6 +6,7 @@
 int main(void)
 {
 	int n = 50;
+	int i;
 	unsigned long int first_term = 1;
 	unsigned long int second_term = 2;
 	unsigned long int next_term = 0;
