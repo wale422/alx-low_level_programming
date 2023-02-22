@@ -10,7 +10,6 @@ int main(void)
 	unsigned long int first_term = 1;
 	unsigned long int second_term = 2;
 	unsigned long int next_term = 0;
-	unsigned long int sum = 0;
 
 	for (i = 0 ; i < n; i++)
 	{
