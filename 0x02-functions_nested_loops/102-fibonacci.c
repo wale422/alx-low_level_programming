@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0 ; i < n; i++)
 	{
 		printf("%lu", first_term);
-		if (!(i == (n-1)))
+		if (!(i == (n - 1)))
 		{
 			printf(", ");
 		}
