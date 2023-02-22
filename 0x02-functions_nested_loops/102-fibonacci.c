@@ -10,10 +10,9 @@ int main(void)
 	unsigned long int second_term = 2;
 	unsigned long int next_term = 0;
 	
-
-	while (n > 0 )
+	while (n > 0)
 	{
-		printf("%lu, ",first_term);
+		printf("%lu, ", first_term);
 		next_term  = first_term + second_term;
 		first_term = second_term;
 		second_term = next_term;
