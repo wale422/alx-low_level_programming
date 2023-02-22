@@ -13,7 +13,7 @@ int main(void)
 
 	while (n > 0 )
 	{
-		printf("%lu, \n",first_term);
+		printf("%lu, ",first_term);
 		next_term  = first_term + second_term;
 		first_term = second_term;
 		second_term = next_term;
