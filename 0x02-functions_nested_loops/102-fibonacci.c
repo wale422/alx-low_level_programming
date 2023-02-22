@@ -21,7 +21,6 @@ int main(void)
 		next_term  = first_term + second_term;
 		first_term = second_term;
 		second_term = next_term;
-		
 	}
 	printf("\n");
 	return (0);
