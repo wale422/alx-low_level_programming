@@ -1,24 +1,25 @@
 #include <stdio.h>
 /**
-  * main - print first 98 fibonacci numbers.
+  * main - find and print sum of even valued terms
   * Return: nothing.
   */
 int main(void)
 {
 	int n = 98;
 	int i;
-	unsigned long int first_term = 1;
-	unsigned long int second_term = 2;
-	unsigned long int next_term = 0;
+	int first_term = 1;
+	int second_term = 2;
+	int next_term ;
+	printf("%d,%d", first_term, second_term);
 
-	for (i = 0 ; i < n; i++)
+	for (i = 2 ; i < n; i++)
 	{
-		printf("%lu", first_term);
+		next_term = first_term + second_term;
+		printf("%d", next_term);
 		if (!(i == (n - 1)))
 		{
 			printf(", ");
 		}
-		next_term  = first_term + second_term;
 		first_term = second_term;
 		second_term = next_term;
 	}
