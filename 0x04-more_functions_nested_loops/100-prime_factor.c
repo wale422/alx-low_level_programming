@@ -6,24 +6,23 @@
   *
   * Return: Always 0 (Success)
   */
-int main (void)
+int main(void)
 {
 	int i = 2;
 	long n = 612852475143;
-	int largest = 2; 
+	int largest = 2;
 
-	while( n != 1)
+	while (n != 1)
 	{
-		if(n % 1 == 0)
+		if (n % 1 == 0)
 		{
 			while (n % i == 0)
 			{
-				if( i > largest)
+				if (i > largest)
 				{
-					largest = i ; 
+					largest = i;
 				}
 				n = n / i;
-				
 			}
 		}
 		i++;
