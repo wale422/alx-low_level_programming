@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the name of the executable file
+ * main - prints argument count
  * @argc: argument count
  * @argv: pointer to arguments passed
  *
