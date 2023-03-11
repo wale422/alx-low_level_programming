@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 			printf("0\n");
 			break;
 		}
-		if (atoi(argv[i]) == 0)
+		if (atoi(argv[i]) == 0 || atoi(argv[i]) < 0)
 		{
 			printf("Error\n");
 			return (1);
