@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 /**
-* main - adds positive arguments
-* @argc: argument count
-* @argv: pointer to arguments passed
-*
-* Return: 0
-*/
+  * main - Prints the sum of args positive numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
